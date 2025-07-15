@@ -6,17 +6,18 @@
 
 body {
   font-family: 'Helvetica Neue', sans-serif;
-  color: #fff; /* Texto branco */
-  background: #000; /* Fundo preto */
+  color: #fff;
+  background: #000;
   scroll-behavior: smooth;
 }
 
 .header {
   position: absolute;
   width: 100%;
-  top: 0; left: 0;
+  top: 0;
+  left: 0;
   z-index: 10;
-  background: rgba(0,0,0,0.7); /* Barra mais escura */
+  background: rgba(0, 0, 0, 0.7);
 }
 
 .nav ul {
@@ -38,7 +39,7 @@ body {
 }
 
 .nav a:hover {
-  color: #e91e63; /* Rosa do botão no hover */
+  color: #e91e63;
 }
 
 .hero {
@@ -53,7 +54,7 @@ body {
   text-align: center;
   color: #fff;
   max-width: 90%;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   padding: 2rem;
   border-radius: 8px;
 }
@@ -84,18 +85,18 @@ body {
 
 .section {
   padding: 4rem 1.5rem;
-  background: #000; /* Fundo preto em todas as seções */
+  background: #000;
   text-align: center;
 }
 
 .section:nth-child(even) {
-  background: #111; /* Alternar para cinza escuro */
+  background: #111;
 }
 
 .section h2 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
-  color: #fff; /* Títulos brancos */
+  color: #fff;
 }
 
 .faq-list {
@@ -123,8 +124,13 @@ body {
 }
 
 @media(max-width:768px) {
-  .hero h1 { font-size: 2rem; }
-  .hero p { font-size: 1rem; }
-  .nav ul { flex-direction: column; background: rgba(0,0,0,0.8); }
-  .nav li { margin: 0.5rem 0; }
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+  .nav {
+    display: none; /* Menu removido no mobile */
+  }
 }
