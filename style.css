@@ -5,51 +5,41 @@
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background: #000;
+  font-family: sans-serif;
+  background-color: #000;
   color: #fff;
-  overflow-x: hidden;
-}
-
-.hero {
-  height: 80vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #111;
   text-align: center;
   padding: 2rem;
 }
 
-.hero h1 {
-  font-size: 2.5rem;
-  max-width: 700px;
-  margin: auto;
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
-/* Carrossel atualizado */
 .carousel-container {
   overflow: hidden;
   width: 100%;
-  background-color: #111;
-  padding: 2rem 0;
+  margin: 0 auto 3rem auto;
+  position: relative;
+  max-width: 900px;
 }
 
-.carousel-track {
+.carousel {
   display: flex;
-  gap: 1rem;
-  animation: scroll 25s linear infinite;
-  width: max-content;
+  width: calc(300px * 10); /* Ajuste conforme o número de imagens */
+  animation: slide 20s linear infinite;
 }
 
-.carousel-track img {
-  height: 300px;
-  flex-shrink: 0;
-  border-radius: 1rem;
+.carousel img {
+  width: 300px;
+  height: auto;
   object-fit: cover;
+  margin-right: 10px;
+  border-radius: 10px;
 }
 
-@keyframes scroll {
+@keyframes slide {
   0% {
     transform: translateX(0);
   }
@@ -58,20 +48,17 @@ body {
   }
 }
 
-.localizacao {
-  padding: 2rem;
-  background-color: #111;
-  text-align: center;
-}
-
-.localizacao h2 {
-  margin-bottom: 1rem;
+.location h2 {
   font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 
-.footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: #000;
-  color: #888;
+.location a {
+  color: #00ffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.location a:hover {
+  text-decoration: underline;
 }
