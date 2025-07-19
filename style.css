@@ -47,7 +47,7 @@ body {
   background: url('01.jpg') no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 70vh;
   display: flex;
   align-items: flex-start; /* Alinha o conteúdo no topo */
   justify-content: center;
