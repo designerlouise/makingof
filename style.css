@@ -27,6 +27,7 @@ body {
   margin: auto;
 }
 
+/* Carrossel atualizado */
 .carousel-container {
   overflow: hidden;
   width: 100%;
@@ -37,8 +38,8 @@ body {
 .carousel-track {
   display: flex;
   gap: 1rem;
-  animation: scroll 20s linear infinite;
-  width: fit-content;
+  animation: scroll 25s linear infinite;
+  width: max-content;
 }
 
 .carousel-track img {
@@ -49,8 +50,12 @@ body {
 }
 
 @keyframes scroll {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 .localizacao {
