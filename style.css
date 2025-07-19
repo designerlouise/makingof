@@ -45,8 +45,8 @@ body {
 /* === HERO === */
 .hero {
   background: url('01.jpg') no-repeat;
-  background-size: 120%; /* aumenta o tamanho da imagem para 120% */
-  background-position: 60% 40%; /* move um pouco para direita (60%) e para cima (40%) */
+  background-size: 150%; /* aumenta o tamanho da imagem para 120% */
+  background-position: 50% 70%; /* move um pouco para direita (60%) e para cima (40%) */
   height: 100vh;
   display: flex;
   align-items: center;
