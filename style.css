@@ -60,7 +60,7 @@ body {
   border-radius: 12px;
   max-width: 90%;
   position: absolute;
-  top: 45%; /* posiciona na área marcada */
+  top: 60%; /* posiciona na área marcada */
   transform: translateY(-50%);
   text-align: center;
 }
