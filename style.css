@@ -78,7 +78,7 @@ body {
 
 .btn-primary {
   background-color: #ff4081;
-  color: #fff;
+  color: #ffffff;
   padding: 0.6rem 1.5rem;
   border: none;
   border-radius: 50px;
@@ -90,7 +90,7 @@ body {
 
 .btn-primary:hover {
   background-color: #e73370;
-  color: #fff;
+  color: #ffffff;
 }
 
 /* === INTRO === */
