@@ -142,8 +142,8 @@ body {
 
 .carousel-track {
   display: flex;
-  width: calc(310px * 20);
-  animation: slide 20s linear infinite;
+  width: max-content;
+  animation: slide 40s linear infinite;
 }
 
 .carousel-image {
