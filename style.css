@@ -47,7 +47,7 @@ body {
   background: url('01.jpg') no-repeat;
   background-size: cover;
   background-position: center;
-  height: 60vh; /* altura menor */
+  height: 80vh; /* altura menor */
   display: flex;
   justify-content: center;
   position: relative;
