@@ -113,7 +113,8 @@ body {
 
 .carousel-track {
   display: flex;
-  animation: slide 5s linear infinite;
+  width: calc(310px * 20); /* 300px + 10px margin, 10 imagens duplicadas */
+  animation: slide 20s linear infinite; /* velocidade ajustada */
 }
 
 .carousel-image {
