@@ -1,7 +1,9 @@
-// FAQ Toggle
-document.querySelectorAll('.faq-question').forEach(button => {
-  button.addEventListener('click', () => {
-    const answer = button.nextElementSibling;
-    answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
-  });
+const track = document.querySelector('.carousel-track');
+
+track.addEventListener('mouseover', () => {
+  track.style.animationPlayState = 'paused';
+});
+
+track.addEventListener('mouseout', () => {
+  track.style.animationPlayState = 'running';
 });
