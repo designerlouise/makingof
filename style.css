@@ -47,7 +47,7 @@ body {
   background: url('01.jpg') no-repeat;
   background-size: cover;
   background-position: center;
-  height: 70vh;
+  height: 60vh;
   display: flex;
   align-items: flex-start; /* Alinha o conteúdo no topo */
   justify-content: center;
@@ -61,7 +61,7 @@ body {
   padding: 1rem 1.5rem; /* Reduzido */
   border-radius: 12px;
   max-width: 90%;
-  margin-top: 8rem; /* Ajuste para subir/descer */
+  margin-top: 10rem; /* Ajuste para subir/descer */
 }
 
 .hero h1 {
