@@ -53,8 +53,8 @@ body {
 /* Hero */
 .hero {
   position: relative;
-  height: 90vh;
-  background: url('01.jpg') center/cover no-repeat;
+  height: 100vh;
+  background: url('01.jpg') center top 20% / cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
