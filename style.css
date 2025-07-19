@@ -113,7 +113,7 @@ body {
 
 .carousel-track {
   display: flex;
-  animation: slide 80s linear infinite;
+  animation: slide 5s linear infinite;
 }
 
 .carousel-image {
