@@ -78,7 +78,7 @@ body {
 
 .btn-primary {
   background-color: #ff4081;
-  color: white;
+  color: #fff !important;
   padding: 0.6rem 1.5rem;
   border: none;
   border-radius: 50px;
@@ -88,9 +88,13 @@ body {
   display: inline-block;
 }
 
-.btn-primary:hover {
-  background-color: #e73370;
-  color: white;
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:visited,
+.btn-primary:active,
+.btn-primary:link {
+  color: #fff !important;
+  text-decoration: none;
 }
 
 /* === INTRO === */
