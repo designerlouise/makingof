@@ -1,11 +1,7 @@
-document.querySelectorAll('.faq-question').forEach(btn => {
-  btn.addEventListener('click', () => {
-    btn.classList.toggle('active');
-    const answer = btn.nextElementSibling;
-    if (answer.style.display === "block") {
-      answer.style.display = "none";
-    } else {
-      answer.style.display = "block";
-    }
+// FAQ Toggle
+document.querySelectorAll('.faq-question').forEach(button => {
+  button.addEventListener('click', () => {
+    const answer = button.nextElementSibling;
+    answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
   });
 });
