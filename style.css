@@ -218,7 +218,7 @@ body {
 .mapa {
   width: 100%;
   height: 400px;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .localizacao iframe {
